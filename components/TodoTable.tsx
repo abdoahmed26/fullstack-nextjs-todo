@@ -26,7 +26,7 @@ export function TodoTable({todos}:{todos:IProp[]}) {
             <TableCaption>A list of your recent todo.</TableCaption>
             <TableHeader>
                 <TableRow>
-                    <TableHead>ID</TableHead>
+                    <TableHead>Id</TableHead>
                     <TableHead>Title</TableHead>
                     <TableHead>Status</TableHead>
                     <TableHead>Create At</TableHead>
