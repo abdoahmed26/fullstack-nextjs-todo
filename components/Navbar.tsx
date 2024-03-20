@@ -12,7 +12,7 @@ const Navbar = ({}:IProp)=>{
                 <div className="flex justify-between items-center py-3">
                     <ModeToggle />
                     <SignedIn>
-                        <UserButton />
+                        <UserButton afterSignOutUrl="/sign-in"/>
                     </SignedIn>
                     <SignedOut>
                         <SignInButton/>
